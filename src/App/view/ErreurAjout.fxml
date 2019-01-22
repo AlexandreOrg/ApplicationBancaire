@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.OperationsController">
+   <children>
+      <Label contentDisplay="CENTER" layoutY="15.0" text="Tous les champs doivent être renseignés afin de" textAlignment="CENTER" />
+      <Button fx:id="btCloseOk" layoutX="111.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleCloseOkErreur" text="OK" />
+      <Label layoutX="62.0" layoutY="35.0" prefHeight="17.0" prefWidth="129.0" text="créer/modifier un client." />
+   </children>
+</AnchorPane>

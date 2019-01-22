@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.OperationsController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="8.0" layoutY="14.0" text="Le format de la date doit être : aaaa-MM-dd" textAlignment="CENTER" />
+      <Button fx:id="btCloseOk" layoutX="109.0" layoutY="61.0" mnemonicParsing="false" onAction="#handleCloseOkErreur" text="OK" />
+      <Label layoutX="8.0" layoutY="34.0" text="Exemple, pour le 3 août 1995 :" />
+      <Label layoutX="180.0" layoutY="34.0" text="1995-08-03" />
+   </children>
+</AnchorPane>

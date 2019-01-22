@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.OperationsController">
+   <children>
+      <Label contentDisplay="CENTER" layoutY="23.0" text="Le compte saisi n'est pas celui recherché. Arrêt de la modification pour ne pas écraser un client déjà existant." textAlignment="CENTER" />
+      <Button fx:id="btCloseValide" layoutX="270.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleCloseOkValide" text="OK" />
+   </children>
+</AnchorPane>

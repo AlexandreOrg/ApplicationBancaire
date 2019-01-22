@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="320.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.OperationsController">
+   <children>
+      <Label layoutX="76.0" layoutY="14.0" text="Numéro du compte pour l'opération :" />
+      <ComboBox fx:id="typePaiement" layoutX="100.0" layoutY="135.0" onMouseClicked="#AfficheTypePaiement" onTouchPressed="#AfficheTypePaiement" prefWidth="150.0" />
+      <TextField fx:id="ztMontantOperation" layoutX="101.0" layoutY="248.0" />
+      <ComboBox fx:id="modePaiement" layoutX="100.0" layoutY="191.0" onMouseClicked="#AfficheModePaiement" onTouchPressed="#AfficheModePaiement" prefWidth="150.0" />
+      <Label layoutX="63.0" layoutY="118.0" text="Choisissez le type d'opération à effectuer :" />
+      <Label layoutX="95.0" layoutY="174.0" text="Choisissez le mode paiement :" />
+      <Label layoutX="119.0" layoutY="231.0" text="Saisissez le montant :" />
+      <Button fx:id="btnValidOpe" layoutX="149.0" layoutY="281.0" mnemonicParsing="false" onAction="#buttonValideNewOperation" text="Valider" />
+      <TextField fx:id="ztZoneEdit" layoutX="76.0" layoutY="31.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="ztZoneTexteMotif" layoutX="76.0" layoutY="81.0" prefHeight="25.0" prefWidth="199.0" />
+      <Label layoutX="119.0" layoutY="64.0" text="Motif de l'opération :" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.VilleRegionController">
+   <children>
+      <Label layoutX="126.0" layoutY="11.0" text="Nom de la région :" />
+      <Button fx:id="btnValideNewRegion" layoutX="149.0" layoutY="64.0" mnemonicParsing="false" onAction="#boutonValidationCreationZoneGeo" text="Valider" />
+      <TextField fx:id="ztNomRegion" layoutX="76.0" layoutY="32.0" prefHeight="25.0" prefWidth="199.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.OperationsController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="22.0" prefHeight="17.0" prefWidth="250.0" text="Vous devez sélectionner une région" textAlignment="CENTER" />
+      <Button fx:id="btCloseOk" layoutX="109.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleCloseOkErreur" text="OK" />
+   </children>
+</AnchorPane>
